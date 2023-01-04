@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Press Start 2P', sans-serif;
+   
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3f3f3f;
+  }
+
+  #titulo{
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 3px 3px black
+  }
+
+  .input-box {
+    width: 450px;
+  }
+
+  .input-box h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  .input-box input {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: #3f3f3f;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 20px;
+    outline: none;
+    font-size: 20px;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    box-shadow: -4px -4px 5px rgba(128, 128, 128),
+      inset 4px 4px 5px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 10px rgba(128, 128, 128),
+      4px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #seletor{
+    font-size: 14px;
+    position: relative;
+    height: 40px;
+    width: 20%;
+    background: #3f3f3f;
+    border: none;
+    border-radius: 8px;
+    color: rgb(248, 246, 246);
+    margin: 15px 0 20px;
+    outline: none;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    box-shadow: -4px -4px 5px rgba(128, 128, 128),
+      inset 4px 4px 5px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 10px rgba(128, 128, 128),
+      4px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-box input::placeholder {
+    letter-spacing: 0;
+  }
+
+  .input-box #btn {
+    position: relative;
+    background: rgb(63, 136, 170);
+    color: #fff;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    
+  }
+
+  .input-box #btnCopiar {
+    display: flex;
+    width: 27%;
+    text-align: center;
+    position: relative;
+    background: rgb(97, 129, 89);
+    color: #fff;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+
+  .input-box #btn:active {
+    background: #aeb027;
+  }
+
+  footer.rodape{
+    
+    bottom: 0;
+    left: 0;
+    margin-top: 1%;
+    position: fixed;
+    width: 100%;
+
+}
+
+  .copyrigth{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    
+}
+footer{
+    text-align: center;
+    padding: 1em;
+    
+    
+}
+
+.git{
+    width: 50px;
+    align-items: center;
+}
+.linke {
+    width: 50px;
+    align-items: center; 
+}

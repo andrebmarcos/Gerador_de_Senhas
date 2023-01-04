@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <div class="input-box">
+
+        <h2 id="titulo">Gerador de Senha</h2>
+        <input type="text" placeholder="Gerar senha" id="senha" readonly="">
+        <select id="seletor" name="seletor">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+        </select>
+        <div id="btn" onclick="gerarSenha()">Gerar senha</div>
+        <div id="btnCopiar" onclick="btncopiar()">Copiar</div>
+      </div>
+      <footer class="rodape">
+        <div class="social"></div>
+        <a href="https://www.linkedin.com/in/andrebmarcos/">
+        <img src="imagem/linkedin_2.png" alt="Linkedin" class="linke" ></a>
+        <a href="https://github.com/andrebmarcos">
+        <img src="imagem/git_2.png" alt="Github" class="git"></a>
+        </div>
+        <p class="copyrigth">&copy; André Marcos – 2023</p>
+    </footer>
+      <script src="index.js"></script>
+</body>
+</html>
+
