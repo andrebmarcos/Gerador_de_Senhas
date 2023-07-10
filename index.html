@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsivo.css">
+    
 
     <title>Gerador de Senha</title>
 </head>
@@ -15,7 +17,10 @@
     <div class="input-box">
 
         <h2 id="titulo">Gerador de Senha</h2>
+        <div class="input-senha">
         <input type="text" placeholder="Gerar senha" id="senha" readonly="">
+        </div>
+        <div class="botoes">
         <select id="seletor" name="seletor">
             <option value="6">6</option>
             <option value="7">7</option>
@@ -32,6 +37,8 @@
         <div id="btn" onclick="gerarSenha()">Gerar senha</div>
         <div id="btnCopiar" onclick="btncopiar()">Copiar</div>
       </div>
+      </div>
+        </div>
       <footer class="rodape">
         <div class="social"></div>
         <a href="https://www.linkedin.com/in/andrebmarcos/">
